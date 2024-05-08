@@ -1,6 +1,6 @@
 const row = document.getElementById("row");
 const cities =
-  fetch(`http://api.geonames.org/searchJSON?country=IN&featureClass=P&maxRows=1000&username=example123
+  fetch(`https://api.geonames.org/searchJSON?country=IN&featureClass=P&maxRows=1000&username=example123
 `);
 cities
   .then((dat) => dat.json())
