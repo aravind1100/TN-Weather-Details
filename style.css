@@ -32,3 +32,8 @@
   font-style: italic;
   font-weight: 600;
 }
+
+.card:hover{
+  border: 2px solid black;
+  color: white;
+}
